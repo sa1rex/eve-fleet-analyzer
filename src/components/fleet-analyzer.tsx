@@ -1,7 +1,7 @@
 "use client"
 
 import React, { useState, type FunctionComponent } from 'react';
-import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card'
+import { Card, CardHeader, CardTitle, CardContent, CardFooter } from '@/components/ui/card'
 import { Alert, AlertTitle } from '@/components/ui/alert'
 import * as FleetInterfaces from './../interfaces/fleetInterfaces';
 import { shipStats } from './../constants/ships';
@@ -23,7 +23,8 @@ import {
 import FleetComparison  from './fleet-comparison'
 import { ShipType, ShipSize } from './../types/types';
 import FleetRecommendations from './fleet-recommendations'
-
+import { GithubIcon } from 'lucide-react';
+import { cn } from "@/lib/utils";
 
 // Интерфейс для структуры данных D-Scan
 interface DScanEntry {
@@ -964,13 +965,13 @@ const FleetAnalyzer: FunctionComponent = () => {
           <div className="w-full flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <img 
-                src="/api/placeholder/40/40"
+                src="https://images.evetech.net/characters/2117539141/portrait?size=128"
                 alt="Author avatar"
                 className="rounded-full w-10 h-10"
               />
               <div className="flex flex-col">
                 <span className="font-medium text-gray-900">From</span>
-                <span className="text-sm text-gray-500">Kamil</span>
+                <span className="text-sm text-gray-500">Metaksa Okaski @Kamil</span>
               </div>
             </div>
             <div className="flex items-center space-x-4">
@@ -980,7 +981,7 @@ const FleetAnalyzer: FunctionComponent = () => {
                 rel="noopener noreferrer" 
                 className="flex items-center text-gray-600 hover:text-gray-900 transition-colors"
               >
-                <Github className="w-5 h-5 mr-1" />
+                <GithubIcon className="w-5 h-5 mr-1" />
                 <span className="text-sm">GitHub</span>
               </a>
               <span className="text-sm text-gray-500">© 2024</span>
