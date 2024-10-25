@@ -6,8 +6,8 @@ const nextConfig = {
   assetPrefix: isProd ? '/eve-fleet-analyzer/' : '',
   basePath: isProd ? '/eve-fleet-analyzer' : '',
   images: {
-    unoptimized: true,
+    unoptimized: true,  
   },
-}
+};
 
 module.exports = nextConfig;
