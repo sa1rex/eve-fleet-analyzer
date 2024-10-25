@@ -1323,7 +1323,7 @@ export const shipStats: Record<string, FleetInterfaces.ShipStats> = {
   // Engineering Complexes
   'Raitaru': {
     type: 'command',
-    priority: 9,
+    priority: 0,
     ehp: 1600000,
     threat: 6,
     dps: 2500,
@@ -1334,7 +1334,7 @@ export const shipStats: Record<string, FleetInterfaces.ShipStats> = {
   },
   'Azbel': {
     type: 'command',
-    priority: 9,
+    priority: 0,
     ehp: 2200000,
     threat: 7,
     dps: 4000,
@@ -1345,7 +1345,7 @@ export const shipStats: Record<string, FleetInterfaces.ShipStats> = {
   },
   'Sotiyo': {
     type: 'command',
-    priority: 9,
+    priority: 0,
     ehp: 3000000,
     threat: 8,
     dps: 6000,
@@ -1358,7 +1358,7 @@ export const shipStats: Record<string, FleetInterfaces.ShipStats> = {
   // Refineries
   'Athanor': {
     type: 'command',
-    priority: 8,
+    priority: 0,
     ehp: 1500000,
     threat: 6,
     dps: 2000,
@@ -1369,7 +1369,7 @@ export const shipStats: Record<string, FleetInterfaces.ShipStats> = {
   },
   'Tatara': {
     type: 'command',
-    priority: 8,
+    priority: 0,
     ehp: 2000000,
     threat: 7,
     dps: 3500,
@@ -3237,7 +3237,7 @@ export const shipStats: Record<string, FleetInterfaces.ShipStats> = {
   // Faction Command Ships
   'Monitor': {
     type: 'command',
-    priority: 8,
+    priority: 4,
     ehp: 200000,
     threat: 3,
     dps: 0,
