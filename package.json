@@ -2,14 +2,15 @@
   "name": "eve-fleet-analyzer",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://eve-github.github.io/eve-fleet-analyzer",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "clean": "rm -rf .next && rm -rf node_modules && npm install",
-	"predeploy": "npm run build",
-	"deploy": "gh-pages -d build"
+    "predeploy": "npm run build && npm run export",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.0",
@@ -21,7 +22,6 @@
     "react-dom": "^18",
     "tailwind-merge": "^2.0.0",
     "tailwindcss-animate": "^1.0.7"
-
   },
   "devDependencies": {
     "@types/node": "^20",
