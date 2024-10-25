@@ -2,7 +2,7 @@
   "name": "eve-fleet-analyzer",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://eve-github.github.io/eve-fleet-analyzer",
+  "homepage": "https://sa1rex.github.io/eve-fleet-analyzer"
   "scripts": {
     "dev": "next dev",
     "build": "next build",
