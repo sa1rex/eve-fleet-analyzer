@@ -1288,10 +1288,10 @@ export const shipStats: Record<string, FleetInterfaces.ShipStats> = {
   // Structures
   'Astrahus': {
     type: 'command',
-    priority: 10,
-    ehp: 1800000,
+    priority: 0,
+    ehp: 0,
     threat: 7,
-    dps: 3000,
+    dps: 0,
     repairPower: 1000,
     mobility: 0,
     ewarResistance: 0.8,
@@ -1299,22 +1299,22 @@ export const shipStats: Record<string, FleetInterfaces.ShipStats> = {
   },
   'Fortizar': {
     type: 'command',
-    priority: 10,
-    ehp: 2500000,
+    priority: 0,
+    ehp: 0,
     threat: 8,
-    dps: 5000,
-    repairPower: 2000,
+    dps: 0,
+    repairPower: 0,
     mobility: 0,
     ewarResistance: 0.9,
     size: 'large'
   },
   'Keepstar': {
     type: 'command',
-    priority: 10,
-    ehp: 3500000,
+    priority: 0,
+    ehp: 0,
     threat: 10,
-    dps: 8000,
-    repairPower: 3000,
+    dps: 0,
+    repairPower: 0,
     mobility: 0,
     ewarResistance: 1.0,
     size: 'large'
@@ -1324,10 +1324,10 @@ export const shipStats: Record<string, FleetInterfaces.ShipStats> = {
   'Raitaru': {
     type: 'command',
     priority: 0,
-    ehp: 1600000,
+    ehp: 0,
     threat: 6,
-    dps: 2500,
-    repairPower: 800,
+    dps: 0,
+    repairPower: 0,
     mobility: 0,
     ewarResistance: 0.8,
     size: 'large'
@@ -1335,10 +1335,10 @@ export const shipStats: Record<string, FleetInterfaces.ShipStats> = {
   'Azbel': {
     type: 'command',
     priority: 0,
-    ehp: 2200000,
+    ehp: 0,
     threat: 7,
-    dps: 4000,
-    repairPower: 1500,
+    dps: 0,
+    repairPower: 0,
     mobility: 0,
     ewarResistance: 0.9,
     size: 'large'
@@ -1346,10 +1346,10 @@ export const shipStats: Record<string, FleetInterfaces.ShipStats> = {
   'Sotiyo': {
     type: 'command',
     priority: 0,
-    ehp: 3000000,
+    ehp: 0,
     threat: 8,
-    dps: 6000,
-    repairPower: 2500,
+    dps: 0,
+    repairPower: 0,
     mobility: 0,
     ewarResistance: 0.9,
     size: 'large'
@@ -1359,9 +1359,9 @@ export const shipStats: Record<string, FleetInterfaces.ShipStats> = {
   'Athanor': {
     type: 'command',
     priority: 0,
-    ehp: 1500000,
+    ehp: 0,
     threat: 6,
-    dps: 2000,
+    dps: 0,
     repairPower: 700,
     mobility: 0,
     ewarResistance: 0.8,
@@ -1370,9 +1370,9 @@ export const shipStats: Record<string, FleetInterfaces.ShipStats> = {
   'Tatara': {
     type: 'command',
     priority: 0,
-    ehp: 2000000,
+    ehp: 0,
     threat: 7,
-    dps: 3500,
+    dps: 0,
     repairPower: 1200,
     mobility: 0,
     ewarResistance: 0.9,
@@ -2270,7 +2270,7 @@ export const shipStats: Record<string, FleetInterfaces.ShipStats> = {
   },
   'Raven': {
     type: 'dps',
-    priority: 6,
+    priority: 6.5,
     ehp: 85000,
     threat: 7,
     dps: 750,
@@ -2673,7 +2673,7 @@ export const shipStats: Record<string, FleetInterfaces.ShipStats> = {
     mobility: 0.5,
     ewarResistance: 0.5,
     priority: 6,
-    threat: 6.4,
+    threat: 5.4,
     damageType: 'instant'
   },
   'Brutix': {
