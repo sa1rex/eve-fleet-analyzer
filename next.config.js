@@ -2,7 +2,7 @@
 const isProd = process.env.NODE_ENV === 'production';
 
 const nextConfig = {
-  output: 'export',
+  output: 'export',  // Заменяет next export
   assetPrefix: isProd ? '/eve-fleet-analyzer/' : '',
   basePath: isProd ? '/eve-fleet-analyzer' : '',
   images: {
